@@ -1,0 +1,45 @@
+{
+    "status": "ok",
+    "totalResults": 3,
+    "articles": [
+        {
+            "source": {
+                "id": "abc-news-au",
+                "name": "ABC News (AU)"
+            },
+            "author": "Simon Smale",
+            "title": "Australia vs West Indies: Remembering Test cricket's first ever tie at the Gabba",
+            "description": "The early indications are that the Gabba Test of 2024 will not be a classic, but in 1960, on the occasion of the West Indies' second-ever visit to the Queensland capital, the two sides played out one of just two ever Test ties.",
+            "url": "https://www.abc.net.au/news/2024-01-25/australia-vs-west-indies-test-cricket-first-ever-tie-gabba-1960/103372834",
+            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/33e10a2221492d55b21be7c7ffd5dd91?impolicy=wcms_crop_resize&cropH=2808&cropW=4992&xPos=0&yPos=305&width=862&height=485",
+            "publishedAt": "2024-01-24T18:47:59Z",
+            "content": "After the one-sided 10-wicket victory in Adelaide, few people will have high hopes of this week's pink ball Test at the Gabba being a classic.\r\nThe West Indies have, after all, lost their last four T… [+8957 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+            "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+            "publishedAt": "2020-04-27T11:41:47Z",
+            "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+            "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+            "publishedAt": "2020-03-30T15:26:05Z",
+            "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+        }
+    ]
+}  
