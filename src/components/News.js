@@ -48,7 +48,7 @@ const News = (props)=>{
 
         return (
             <>
-                <h1 className="text-center" style={{ margin: '35px 0px', marginTop: '90px',color:"white" }}>EverGreenNews - Top {capitalizeFirstLetter(props.category)} Headlines</h1>
+                <h1 className="text-center display-4" style={{ margin: '35px 0px', marginTop: '90px',color:"white" }}>EverGreenNews - Top {capitalizeFirstLetter(props.category)} Headlines</h1>
                 {loading && <Spinner />}
                 <InfiniteScroll
                     dataLength={articles.length}
@@ -73,7 +73,7 @@ const News = (props)=>{
 News.defaultProps = {
     country: 'in',
     pageSize: 9,
-    category: 'general',
+    category: 'general'
 }
 News.propTypes = {
     country: PropTypes.string,
