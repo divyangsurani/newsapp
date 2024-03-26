@@ -14,7 +14,7 @@ const News = (props)=>{
     } 
     const updateNews = async ()=> {
         props.setProgress(10);
-        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=f7d55c84bb4f409591b70f686ddc3bfd&page=${page}&pageSize=${props.pageSize}`;        setLoading(true)
+        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apikey}&page=${page}&pageSize=${props.pageSize}`;        setLoading(true)
         setLoading(true)
         let data = await fetch(url);
         props.setProgress(30);
@@ -36,7 +36,7 @@ const News = (props)=>{
     const fetchMoreData = async () => {   
       const url = `https://newsapi.org/v2/top-headlines?country=${
         props.country
-      }&category=${props.category}&apiKey=f7d55c84bb4f409591b70f686ddc3bfd&page=${
+      }&category=${props.category}&apiKey=${props.apikey}&page=${
         page + 1
       }&pageSize=${props.pageSize}`;
           setPage(page+1) 
@@ -73,7 +73,8 @@ const News = (props)=>{
 News.defaultProps = {
     country: 'in',
     pageSize: 9,
-    category: 'general'
+    category: 'general',
+    
 }
 News.propTypes = {
     country: PropTypes.string,
